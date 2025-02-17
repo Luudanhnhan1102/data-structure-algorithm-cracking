@@ -4,7 +4,7 @@
 # Intuition
 The goal is to find the position where a target value should be inserted into a sorted array to maintain its order. If the target is already present in the array, we return its index. Otherwise, we return the index where it would be inserted.
 
-<p>&nbsp;</p>
+---
 # Approach: Binary Search
 The problem can be efficiently solved using a binary search approach due to the sorted nature of the array. Binary search allows us to quickly narrow down the possible insertion point by repeatedly dividing the search interval in half.
 
@@ -22,10 +22,10 @@ The problem can be efficiently solved using a binary search approach due to the 
     - If the search interval is exhausted (`low > high`), the target is not in the array. The `low` pointer will be at the position where the target should be inserted to maintain the sorted order.
 
 ## Complexity
-- Time complexity: $$O(log⁡n)$$, where n is the number of elements in the array. This is because binary search halves the search interval with each step.
-- Space complexity: $O(log⁡n)$  due to the recursion stack in the worst case. However, it can be optimized to $O(1)$ using an iterative approach.
+- Time complexity: `O(log⁡n)`, where n is the number of elements in the array. This is because binary search halves the search interval with each step.
+- Space complexity: `O(log⁡n)`  due to the recursion stack in the worst case. However, it can be optimized to `O(1)` using an iterative approach.
 
-
+---
 ## Code
 
 ```java
