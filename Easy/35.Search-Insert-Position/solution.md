@@ -22,8 +22,8 @@ The problem can be efficiently solved using a binary search approach due to the 
     - If the search interval is exhausted (`low > high`), the target is not in the array. The `low` pointer will be at the position where the target should be inserted to maintain the sorted order.
 
 ## Complexity
-- Time complexity: $O(log⁡n)$, where n is the number of elements in the array. This is because binary search halves the search interval with each step.
-- Space complexity: $O(log⁡n)$  due to the recursion stack in the worst case. However, it can be optimized to $O(1)$ using an iterative approach.
+- Time complexity: $$O(log⁡n)$$, where n is the number of elements in the array. This is because binary search halves the search interval with each step.
+- Space complexity: $$O(log⁡n)$$  due to the recursion stack in the worst case. However, it can be optimized to $O(1)$ using an iterative approach.
 
 
 ## Code

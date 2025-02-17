@@ -1,4 +1,4 @@
-# Leetcode-data-strcutre-and-algorithms
+# Leetcode data strcutre and algorithms
 
 
 ## Contribution's guide
