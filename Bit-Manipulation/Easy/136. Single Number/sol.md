@@ -4,6 +4,9 @@
 # Goal:
 The goal is to find the single number in an array where every other number appears twice.
 
+# Key Challenges:
+- Handling arrays with negative numbers and varying element orders.
+
 ---
 # 1. Brute Force Approach
 ## Intuition

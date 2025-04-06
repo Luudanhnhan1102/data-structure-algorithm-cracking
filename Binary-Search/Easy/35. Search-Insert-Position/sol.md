@@ -6,6 +6,10 @@
 - If the target is already present in the array, we return its index.
 - Otherwise, we return the index where it would be inserted.
 
+# Key Challenges:
+- Efficiently finding the insertion position in O(log n) time
+- Handling edge cases where the target is at the start/end or not present.
+
 ---
 # 1. Brute Force Approach
 ## Intuition
