@@ -1,5 +1,5 @@
 # Topics:
-#array, #two-pointers
+#two-pointers
 
 ---
 ## Code - Solution 1
